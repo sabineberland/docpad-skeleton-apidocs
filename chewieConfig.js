@@ -30,7 +30,7 @@ const config = {
   },
 
   generationResult: {
-    srcLocation: 'https://github.com/sabineberland/your_github_username.github.io.git',
+    srcLocation: 'https://github.com/sabineberland/sabineberland.github.io.git',
     branch: process.env.docuBranch || 'master',
     cloneLocation: 'latestResultRepo'
   },
