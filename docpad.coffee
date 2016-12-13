@@ -79,10 +79,10 @@ docpadConfig = {
 
       # The production url of our website
       environments:
- prod:
-   templateData:
-     site:
-       url: "https://your_github_username.github.io"
+        prod:
+          templateData:
+             site:
+                 url: "https://sabineberland.github.io"
 
       googleAnalytics: () -> ''
 
