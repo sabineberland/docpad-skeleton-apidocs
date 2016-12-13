@@ -299,7 +299,7 @@ docpadConfig = {
     prod:
       templateData:
         site:
-          url: ""
+          url: "sabineberland.github.io"
           blogFeed: "/atom.xml"
           googleAnalytics: deployment.googleAnalytics
           scripts: deployment.scripts
