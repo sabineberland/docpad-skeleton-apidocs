@@ -78,9 +78,11 @@ docpadConfig = {
       ]
 
       # The production url of our website
-      url: "http://127.0.0.1:9778"
-      yaasUrl: "https://www.yaas.io"
-      home: ""
+      environments:
+ prod:
+   templateData:
+     site:
+       url: "https://your_github_username.github.io"
 
       googleAnalytics: () -> ''
 
